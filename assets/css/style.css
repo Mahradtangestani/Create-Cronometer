@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+textarea{
+	font-family: 'Mada', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.masthead{
+    padding: 1em 2em;
+    background-color: #203046;
+    color: white;
+}
+
+.masthead h1 {
+    text-align: center;
+}
+
+.intro {
+    padding: 2em 2em;
+    color: #ffffff;
+    background: rgb(137, 128, 128)
+}
+
+.intro p,
+.test-area {
+    margin: 0 auto;
+    max-width: 550px;
+}
+
+.test-wrapper {
+    border: 10px solid grey;
+    border-radius: 15px;
+}
+
+#origin-text {
+    margin: 1em 0;
+    padding: 1em 1em 0;
+    background-color: #ededed;
+    margin-top: 7px;
+    border: 3px solid rgb(186, 186, 186);
+    border-radius: 15px;
+}
+
+#origin-text p {
+    margin: 0;
+    padding-bottom: 1em;
+    
+}
+
+.test-wrapper {
+    height: 200%;
+    display: flex;
+}
+
+.test-wrapper textarea {
+    flex: 1;
+}
+
+.meta {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.timer {
+    font-size: 3em;
+    font-weight: bold;
+}
+.pattern{
+    direction: rtl;
+    padding-top: 10px;
+
+}
+
+#reset {  
+
+    margin-block: 10px;
+    padding: 0.5rem 0.7rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2b0843;
+    background: rgb(210, 210, 210) ;
+    border: 7px solid #203046;
+    border-radius: 5px;
+}
+
+#reset:hover {
+    color: rgb(255, 255, 255);
+    background-color: #203046;
+    border: 7px solid rgb(149, 149, 149);
+}
